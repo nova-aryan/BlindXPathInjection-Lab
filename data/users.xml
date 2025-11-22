@@ -1,0 +1,20 @@
+<accounts>
+  <account>
+    <username>admin</username>
+    <password>adm1nP@ss</password>
+    <desc>Administrator account</desc>
+    <flag>hackcubes{bl1ndXP4th_v1bz}</flag>
+  </account>
+  <account>
+    <username>htb-stdnt</username>
+    <password>student_pass</password>
+    <desc>Regular user</desc>
+    <flag>hackcubes{fake_flag}</flag>
+  </account>
+  <account>
+    <username>service</username>
+    <password>serv!ce</password>
+    <desc>Service account</desc>
+    <flag>hackcubes{fake_flag}</flag>
+  </account>
+</accounts>

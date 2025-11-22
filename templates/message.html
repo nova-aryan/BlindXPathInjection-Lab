@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Send Message</h2>
+<form method="post">
+  <input class="form-control mb-2" name="username" placeholder="username">
+  <input class="form-control mb-2" name="msg" placeholder="message">
+  <button class="btn btn-primary">Send</button>
+</form>
+
+{% if success is defined %}
+  {% if success %}
+    <div class="alert alert-success mt-3">Message successfully sent!</div>
+  {% else %}
+    <div class="alert alert-danger mt-3">User does not exist!</div>
+  {% endif %}
+{% endif %}
+{% if error %}
+<div class="alert alert-warning mt-3">{{ error }}</div>
+{% endif %}
+{% endblock %}
