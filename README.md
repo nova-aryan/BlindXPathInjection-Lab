@@ -1,4 +1,4 @@
-# Blind XPath Injection CTF - Complete Writeup
+# Blind XPath Injection Complete Writeup
 
 ## Challenge Overview
 **Challenge Name:** XPath Message Injection  
@@ -391,3 +391,4 @@ if __name__ == "__main__":
 *Writeup by: Aryan Jaiswal*  
 *Date: November 22, 2025*  
 *Challenge: XPath Injection Lab*
+
